@@ -6,3 +6,6 @@ sudo apt-get install vim
 sudo apt-get install npm
 sudo apt-get install xclip 
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+
+sudo systemctl enable ssh
+sudo systemctl start ssh
